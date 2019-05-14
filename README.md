@@ -1,3 +1,40 @@
+# Quick dark mode
+
+On mac:  
+`vi /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js`
+
+If you trust me, append this ajax call to the css for dark theme:
+```
+document.addEventListener('DOMContentLoaded', function() {
+ $.ajax({
+   url: 'https://raw.githubusercontent.com/adeebahmed/slack-night-mode/master/css/raw/black.css',
+   success: function(css) {
+     $("<style></style>").appendTo('head').html(css);
+   }
+ });
+});
+```
+
+If you don't trust me: (recommended) 
+1. Fork this repo
+2. Add your URL where it says "url:"
+3. Your URL will probably look something like: https://raw.githubusercontent.com/{YOUR-GITHUB-USENAME}/slack-night-mode/master/css/raw/black.css
+```
+document.addEventListener('DOMContentLoaded', function() {
+ $.ajax({
+   url: '{YOUR-URL}',
+   success: function(css) {
+     $("<style></style>").appendTo('head').html(css);
+   }
+ });
+});
+```
+
+
+### Below this line is the readme from the main repo
+###########################################################################################################################
+
+
 # Slack Night Mode
 A user style for easy Slack theming. [CC0](http://creativecommons.org/publicdomain/zero/1.0/).
 

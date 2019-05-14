@@ -31,7 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
 ```
 
 
-Your slack should look like this now:  
+
+Your slack will look like this now:  
+
 ![Black Screenshot](https://userstyles.org/style_screenshots/117475_after.png)
 
 

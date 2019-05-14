@@ -31,6 +31,10 @@ document.addEventListener('DOMContentLoaded', function() {
 ```
 
 
+Your slack should look like this now:  
+![Black Screenshot](https://userstyles.org/style_screenshots/117475_after.png)
+
+
 ### Below this line is the readme from the main repo
 ###########################################################################################################################
 

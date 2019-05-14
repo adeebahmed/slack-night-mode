@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+Kill the slack app, then reopen it.  
 Your slack will look like this now:  
 
 ![Black Screenshot](https://userstyles.org/style_screenshots/117475_after.png)

@@ -5,6 +5,7 @@ On mac:
 
 If you trust me, append this ajax call to the css for dark theme:
 ```
+// Dark theme
 document.addEventListener('DOMContentLoaded', function() {
  $.ajax({
    url: 'https://raw.githubusercontent.com/adeebahmed/slack-night-mode/master/css/raw/black.css',
@@ -20,6 +21,7 @@ If you don't trust me: (recommended)
 2. Add {YOUR-URL} where it says "url:"
 3. {YOUR-URL} will probably look something like: https://raw.githubusercontent.com/{YOUR-GITHUB-USERNAME}/slack-night-mode/master/css/raw/black.css
 ```
+// Dark theme
 document.addEventListener('DOMContentLoaded', function() {
  $.ajax({
    url: '{YOUR-URL}',

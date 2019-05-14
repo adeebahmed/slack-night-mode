@@ -17,8 +17,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 If you don't trust me: (recommended) 
 1. Fork this repo
-2. Add your URL where it says "url:"
-3. Your URL will probably look something like: https://raw.githubusercontent.com/{YOUR-GITHUB-USERNAME}/slack-night-mode/master/css/raw/black.css
+2. Add {YOUR-URL} where it says "url:"
+3. {YOUR-URL} will probably look something like: https://raw.githubusercontent.com/{YOUR-GITHUB-USERNAME}/slack-night-mode/master/css/raw/black.css
 ```
 document.addEventListener('DOMContentLoaded', function() {
  $.ajax({

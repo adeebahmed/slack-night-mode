@@ -1,4 +1,4 @@
-# Quick dark mode
+# Quick guide - dark mode
 
 On mac:  
 `vi /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js`

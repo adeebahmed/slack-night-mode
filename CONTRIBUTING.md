@@ -1,6 +1,10 @@
 # Contributing
 I welcome pull requests from anyone. This guide will prepare you for making your first pull request, and will get you set up for making changes.
 
+All I ask on a PR is that you provide a a screenshot of the intended functionality, theme, or what is being added to a theme.
+
+Below this line is the contributing requirements from the origionl repo.
+############################################################################################################################
 Knowledge of [SCSS](http://sass-lang.com/documentation/) is required for changing styles. Reporting any issue is encouraged.
 
 Changes should not be made directly to any file within the `css` directory since these are generated files.
